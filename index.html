@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bulma Framework</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/c9f5871d83.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="my-element">
+
+  <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+        data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" id="homerLink">HOMER</a>
+        <a class="navbar-item" id="margeLink">MARGE</a>
+        <a class="navbar-item" id="bartLink">BART</a>
+        <a class="navbar-item" id="lisaLink">LISA</a>
+        <a class="navbar-item" id="ottoLink">OTTO</a>
+        <a class="navbar-item" id="milhouseLink">MILHOUSE</a>
+      </div>
+
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button is-primary">
+              <strong>Sign up</strong>
+            </a>
+            <a class="button is-light">
+              Log in
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section">
+    <div class="container">
+
+      <div id="notificationHomer" class="notification">
+        <strong>HOMER : </strong>
+        <button id="deleteHomer" class="delete"></button>
+        <a id="couteHomer"></a>
+      </div>
+      <div id="notificationMarge" class="notification">
+        <strong>MARGE : </strong>
+        <button id="deleteMarge" class="delete"></button>
+        <a id="couteMarge"></a>
+      </div>
+      <div id="notificationBart" class="notification">
+        <strong>BART : </strong>
+        <button id="deleteBart" class="delete"></button>
+        <a id="couteBart"></a>
+      </div>
+
+      <div class="columns is-multiline">
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-content">
+              <img alt="imgSimpson" id="imgPerson">
+            </div>
+          </div>
+        </div>
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-content">
+              <img alt="imgSimpson1" id="imgPerson1">
+            </div>
+          </div>
+        </div>
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-content">
+              <img alt="imgSimpson2" id="imgPerson2">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="notificationLisa" class="notification">
+        <strong>LISA : </strong>
+        <button id="deleteLisa" class="delete"></button>
+        <a id="couteLisa"></a>
+      </div>
+      <div id="notificationOtto" class="notification">
+        <strong>OTTO : </strong>
+        <button id="deleteOtto" class="delete"></button>
+        <a id="couteOtto"></a>
+      </div>
+      <div id="notificationMilhouse" class="notification">
+        <strong>MILHOUSE : </strong>
+        <button id="deleteMilhouse" class="delete"></button>
+        <a id="couteMilhouse"></a>
+      </div>
+
+      <div class="columns is-multiline">
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-content">
+              <img alt="imgSimpson3" id="imgPerson3">
+            </div>
+          </div>
+        </div>
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-content">
+              <img alt="imgSimpson4" id="imgPerson4">
+            </div>
+          </div>
+        </div>
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-content">
+              <img alt="imgSimpson5" id="imgPerson5">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer has-background-primary has-text-white">
+    <div class="content has-text-centered">
+      <p>
+        <strong class="has-text-white">Los Simpson</strong><a href="#your-link" class="has-text-white"> <i
+            class="fa-solid fa-copyright"></i>
+          Javier</a>.
+      </p>
+    </div>
+  </footer>
+  <script src="js/script.js" defer></script>
+</body>
+
+</html>

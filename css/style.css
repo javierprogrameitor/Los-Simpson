@@ -1,0 +1,46 @@
+
+@import "bulma/sass/grid/button.sass";
+
+@media screen and (max-width: 700px) {
+    .my-element {
+        background: green;
+    }
+}
+
+@media screen and (min-width: 701px) {
+    .my-element {
+        background: orange;
+    }
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    background-color: rgb(235, 212, 255);
+    width: 400px;
+    height: 500px;
+}
+
+.notification {
+ border-radius: 10px;
+ font-size: 15px;
+ align-items: center;
+ background-color: rgb(194, 178, 208);
+ 
+}
+#notificationHomer, #notificationMarge, #notificationBart, #notificationLisa, #notificationOtto,
+#notificationMilhouse{
+    display: none;
+}
+
+.notification a:not(.button):not(.dropdown-item) {
+    color: white;
+    text-decoration: none;
+}
+h2 {
+    text-align: center;
+   
+}
